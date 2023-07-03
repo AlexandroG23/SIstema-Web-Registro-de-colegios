@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bienvenidos a ETERSAC</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="../libs/style.css" rel="stylesheet" type="text/css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    
+    <ul class="nav justify-content-center fw-lighter flex fs-4 d-flex flex-wrap align-items-baseline">
+        <div class="m-3 ">
+            <img class="rounded-circle dub" id="prueba" src="../img/bus-logo-1.jpg">
+            ETERSAC
+        </div>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="about.html">Sobre nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Login</a>
+        </li>
+    </ul>
+  </header>
+
+  
+  <main class=" text-center">
+
+    <div class="cabeceras">
+        <h1 class="pb-1 text-center fw-lighter">EMPRESA DE TRANSPORTE </h1>
+        <h2 class="pb-5 text-center fw-lighter fs-1">EDILBERTO RAMOS SAC</h2>
+        <h2 class="p-5 text-center fw-lighter fs-1">TRASLADATE DE MANERA SEGURA CON NOSOTROS</h2>
+    </div>
+    
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../img/bus-amarillo.jpg" class="d-block w-100" alt="bus amarillo">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../img/bus-azul-puente.jpg" class="d-block w-100" alt="bus azul">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/bus-marron.jpg" class="d-block w-100" alt="bus marron">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/buses-azules.jpg" class="d-block w-100" alt="bus marron">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  </main>
+
+  
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          var myLandbot = new Landbot.Livechat({
+            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1644467-JKEO7B13SF4O7W40/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+</body>
+
+</html>
