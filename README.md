@@ -19,4 +19,4 @@ Integrantes:
 ![Imagen del proyecto](./img/Usuarios.png)
 
 ## Vista previa
-  ![Etersac](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDY3b2FrYzhqNG15d241OTkxN3hzcjNkNnY4cjd2ZWtuNzhoNWRpcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8MeVfbTXQcJtkYlYrj/giphy.gif)
+ <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDY3b2FrYzhqNG15d241OTkxN3hzcjNkNnY4cjd2ZWtuNzhoNWRpcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8MeVfbTXQcJtkYlYrj/giphy.gif" width="600" height="400">
