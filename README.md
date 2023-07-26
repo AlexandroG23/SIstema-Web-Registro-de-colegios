@@ -9,7 +9,7 @@ Es un sistema web para registro de colegios de la empresa ETERSAC. Asi mismo, ap
 
 ## Capturas
 ### Home
-![Imagen del proyecto](./img/home.jpg)
+![Imagen del proyecto](./img/Home.jpg)
 
 ### Login
 ![Imagen del proyecto](./img/Login.png)
