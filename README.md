@@ -8,6 +8,9 @@ Es un sistema web para registro de colegios de la empresa ETERSAC. Asi mismo, ap
 - Denilson Anthony Vivanco Carranza
 
 ## Capturas
+### Home
+![Imagen del proyecto](./img/home.jpg)
+
 ### Login
 ![Imagen del proyecto](./img/Login.png)
 
